@@ -54,11 +54,12 @@ const results = searchBy('name', 'Joh', 'autoComplete');
 
 ####  `searchBy` Props
 
-| Prop name                | Description                                            | Default value      | Example values                           |
-| ------------------------ | ------------------------------------------------------ | ------------------ | ---------------------------------------- |
-| key                      | `string` : The field name.                             | n/a                | name                                     |
-| value                    | `string` : value of the field.                         | n/a                | John Doe                                 |
-| searchType               | `searchType` : The search types for the field          | n/a                | `'autoComplete' or 'fullTextSearch'`     |
+| Prop name                | Description                                                           | Default value      | Example values                           |
+| ------------------------ | --------------------------------------------------------------------- | ------------------ | ---------------------------------------- |
+| key                      | `string` : The field name.                                            | n/a                | name                                     |
+| value                    | `string` : value of the field.                                        | n/a                | John Doe                                 |
+| searchType               | `searchType` : The search types for the field                         | n/a                | `'autoComplete' or 'fullTextSearch'`     |
+| srict                    | `boolean` : Whether to match exact (true) or similar (false) works only for `fullTextSearch`         | true               | `'true'`                                 |
 
 ## How it works
 
